@@ -56,22 +56,15 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           
-          {/* Brand: Clean & Uncluttered Name */}
+          {/* Brand Logo */}
           <div className="flex items-center gap-3">
             <button
               onClick={() => handleNavClick('overview')}
-              className="flex items-center gap-2.5 text-left group focus:outline-none"
+              className="flex items-center gap-2 group focus:outline-none cursor-pointer"
+              title="Return to top"
             >
-              <div className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-sky-400 text-sm group-hover:border-sky-500/60 transition-colors">
+              <div className="w-9 h-9 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center font-bold text-sky-400 text-sm group-hover:border-sky-500/60 transition-colors">
                 AM
-              </div>
-              <div className="flex flex-col">
-                <span className="font-['Chakra_Petch'] text-base font-bold tracking-tight text-white group-hover:text-sky-300 transition-colors">
-                  Aaron Mutua
-                </span>
-                <span className="text-[11px] font-mono text-slate-400 -mt-0.5">
-                  Junior Developer · DevOps & Systems
-                </span>
               </div>
             </button>
           </div>
