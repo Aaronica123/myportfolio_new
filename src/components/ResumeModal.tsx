@@ -124,23 +124,25 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                 <li>Understood corporate undertakings and organizational process flows.</li>
                 <li>Proposed an improvement on current system flaws and workflow delays.</li>
                 <li>Collaborated with staff in creating the company ticketing system.</li>
+                <li>Created CI/CD workflows to automate testing and deployment.</li>
+                <li>Created tests for proposed ticketing system.</li>
               </ul>
             </div>
           </div>
 
-          {/* 27 Technologies Tech Stack */}
+          {/* Technical Proficiencies Tech Stack */}
           <div className="space-y-3">
             <h2 className="font-['Chakra_Petch'] font-bold text-xs uppercase text-sky-400 tracking-wider flex items-center gap-2">
-              <Award size={15} /> TECHNICAL PROFICIENCIES (27 TECHNOLOGIES)
+              <Award size={15} /> TECHNICAL PROFICIENCIES & SKILLS
             </h2>
             <div className="p-4 rounded-lg bg-slate-900 border border-slate-800 space-y-3">
               <div className="flex flex-wrap gap-1.5">
                 {[
-                  'C', 'Python', 'React Router', 'RabbitMQ', 'React', 'NodeJS',
-                  'Django', 'Vite', 'Express.js', 'Flask', 'HTML5', 'JavaScript',
-                  'CSS3', 'Nginx', 'Supabase', 'Postgres', 'Redis', 'MongoDB',
-                  'MySQL', 'MicrosoftSQLServer', 'Figma', 'Git', 'GitHub',
-                  'GitHub Actions', 'Jest', 'Docker', 'Postman'
+                  'TypeScript', 'NextJS', 'NestJS', 'DevOps', 'CI/CD Workflow Handling',
+                  'C', 'Python', 'React', 'React Router', 'NodeJS', 'Django',
+                  'Vite', 'Express.js', 'Flask', 'HTML5', 'JavaScript', 'CSS3',
+                  'Docker', 'RabbitMQ', 'Nginx', 'GitHub Actions', 'Jest', 'Postman',
+                  'Postgres', 'Supabase', 'Redis', 'MongoDB', 'MySQL', 'MicrosoftSQLServer', 'Figma', 'Git', 'GitHub'
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -159,6 +161,26 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
               <FolderGit2 size={15} /> FEATURED PROJECTS
             </h2>
             <div className="space-y-2 text-xs">
+              <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800 space-y-1">
+                <div className="flex justify-between items-center">
+                  <strong className="text-white font-semibold">BUTCHERY MANAGEMENT SYSTEM</strong>
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-950/80 text-amber-300 border border-amber-600/50">Tag: Undergoing</span>
+                </div>
+                <p className="text-slate-300 text-xs">
+                  Created butchery management system for client to solve their current manual stock handling and management to increase efficiency and ensure data integrity. Using the NestJS classes as the backend for proper backend structure and organized testing the project is and the frontend management using NextJS the system is expected to be fast, responsive and secure for the client.
+                </p>
+              </div>
+
+              <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800 space-y-1">
+                <div className="flex justify-between items-center">
+                  <strong className="text-white font-semibold">MMUSTHOMES</strong>
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-950/80 text-emerald-300 border border-emerald-600/50">Tag: Complete</span>
+                </div>
+                <p className="text-slate-300 text-xs">
+                  A project inspired on the current tiresome house hunting procedure manual door to door searching and late knowledge of vacant houses. This project aims to solve this existing problem by providing a house hunting platform for users to lookup for available vacant houses and use the mapping feature to navigate to these houses.
+                </p>
+              </div>
+
               <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800 space-y-1">
                 <div className="flex justify-between items-center">
                   <strong className="text-white font-semibold">Julisha System: Multilingual AI Healthcare Platform</strong>

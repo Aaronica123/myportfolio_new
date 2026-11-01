@@ -27,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   // Streamlined, uncrowded navigation
   const navLinks = [
     { id: 'overview', label: 'About' },
-    { id: 'techstack', label: 'Tech Stack (27)' },
+    { id: 'techstack', label: 'Tech Stack & Skills' },
     { id: 'projects', label: 'Projects & Julisha' },
     { id: 'certifications', label: 'Certifications' },
     { id: 'quests', label: 'Quests & Timeline' },

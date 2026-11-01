@@ -77,7 +77,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 onClick={scrollToTechStack}
                 className="px-5 py-2.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-['Chakra_Petch'] font-bold text-xs uppercase tracking-wide transition-all shadow-sm flex items-center gap-2 cursor-pointer"
               >
-                <span>View Tech Stack (27)</span>
+                <span>View Tech Stack & Skills</span>
                 <ArrowRight size={15} />
               </button>
 
@@ -197,7 +197,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                     Attache, Kenya Marine Fisheries Research Institute
                   </strong>
                   <p className="text-slate-400 text-[11px]">
-                    Engineered company ticketing system & identified system flow enhancements.
+                    Engineered company ticketing system, created tests & automated CI/CD deployment pipelines.
                   </p>
                 </div>
 
@@ -220,15 +220,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="pt-2 border-t border-slate-800 space-y-2 font-mono text-[11px]">
                 <div className="flex justify-between text-slate-400">
                   <span>Backend & Systems</span>
-                  <span className="text-slate-300">Python · Django · Node.js · C</span>
+                  <span className="text-slate-300">NestJS · Python · Node.js · C</span>
                 </div>
                 <div className="flex justify-between text-slate-400">
                   <span>DevOps & Infra</span>
-                  <span className="text-slate-300">Docker · CI/CD · Cloud</span>
+                  <span className="text-slate-300">DevOps · CI/CD Workflows · Docker</span>
                 </div>
                 <div className="flex justify-between text-slate-400">
-                  <span>Databases</span>
-                  <span className="text-slate-300">Postgres · Supabase · Redis · Mongo</span>
+                  <span>Frontend & Web</span>
+                  <span className="text-slate-300">NextJS · TypeScript · React · GIS</span>
                 </div>
               </div>
 

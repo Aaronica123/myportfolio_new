@@ -27,6 +27,12 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
 }) => {
   const getStatusBadge = (status: string) => {
     switch (status) {
+      case 'Undergoing':
+      case 'undergoing':
+        return 'bg-amber-950/80 text-amber-300 border-amber-600/50 font-bold';
+      case 'Complete':
+      case 'complete':
+        return 'bg-emerald-950/80 text-emerald-300 border-emerald-600/50 font-bold';
       case 'Ongoing Project':
       case 'Active Development':
         return 'bg-slate-800 text-emerald-400 border-slate-700';

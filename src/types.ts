@@ -56,8 +56,8 @@ export interface ProjectDetail {
   id: string;
   title: string;
   tagline: string;
-  category: 'Systems Overhaul' | 'Healthcare AI' | 'DevOps & Cloud' | 'Enterprise Infrastructure' | 'Geospatial AI & Infrastructure' | 'Civic & Infrastructure AI';
-  status: 'Active Overhaul' | 'Production / Hackathon' | 'Completed Attachment' | 'Active Development' | 'Ongoing Project';
+  category: 'Systems Overhaul' | 'Healthcare AI' | 'DevOps & Cloud' | 'Enterprise Infrastructure' | 'Geospatial AI & Infrastructure' | 'Civic & Infrastructure AI' | 'Enterprise Management System' | 'Civic & Student Housing Platform' | string;
+  status: 'Active Overhaul' | 'Production / Hackathon' | 'Completed Attachment' | 'Active Development' | 'Ongoing Project' | 'Undergoing' | 'Complete' | string;
   techStack: string[];
   summary: string;
   problemStatement: string;

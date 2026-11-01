@@ -165,6 +165,31 @@ const TECH_EXTENDED_INFO = {
     role: 'Collection runners, pre-request scripts, environment variable token handshakes, and automated testing.',
     codeSnippet: 'pm.test("Status code is 200 OK", () => pm.response.to.have.status(200));',
   },
+  'tech-typescript': {
+    usageProject: 'Butchery Management System & MMUSTHOMES',
+    role: 'Strict static typing, interfaces, generics, algebraic data types, and enterprise code quality.',
+    codeSnippet: 'interface StockBatch { id: string; weightKg: number; verified: boolean; }',
+  },
+  'tech-nextjs': {
+    usageProject: 'Butchery Management System & MMUSTHOMES',
+    role: 'Server-side rendering, App Router, responsive stock management interfaces, and fast route navigation.',
+    codeSnippet: 'export default async function Page() { return <StockDashboard />; }',
+  },
+  'tech-nestjs': {
+    usageProject: 'Butchery Management System Backend',
+    role: 'Class-based backend structure, dependency injection, service providers, and organized Jest testing suites.',
+    codeSnippet: '@Injectable()\nexport class StockService {\n  constructor(@InjectRepository(Stock) private repo: Repository<Stock>) {}\n}',
+  },
+  'tech-devops': {
+    usageProject: 'KMFRI Infrastructure & Cloud Automation',
+    role: 'End-to-end automation, environment parity, SRE principles, monitoring, and cloud hosting.',
+    codeSnippet: 'docker run -d --restart unless-stopped -p 80:80 kmfri-ticketing:latest',
+  },
+  'tech-cicd-workflow': {
+    usageProject: 'KMFRI Attache & GitHub Actions Workflows',
+    role: 'Created CI/CD workflows to automate testing and deployment for the proposed ticketing system.',
+    codeSnippet: 'name: CI/CD Automated Workflow\non: [push, pull_request]\njobs:\n  test-and-deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - run: npm test\n      - run: npm run deploy',
+  },
 };
 
 export default function TechStackSection() {
@@ -173,13 +198,13 @@ export default function TechStackSection() {
   const [selectedTech, setSelectedTech] = useState(null);
 
   const filterTabs = [
-    { label: 'All Technologies', value: 'All', count: 27 },
-    { label: 'Languages', value: 'Languages', count: 5 },
-    { label: 'Frontend', value: 'Frontend', count: 4 },
-    { label: 'Backend', value: 'Backend', count: 4 },
-    { label: 'Databases', value: 'Databases', count: 6 },
-    { label: 'DevOps & Messaging', value: 'DevOps & Queues', count: 4 },
-    { label: 'Testing & Tools', value: 'Testing & Tools', count: 4 },
+    { label: 'All Technologies', value: 'All', count: TECH_STACK_ITEMS.length },
+    { label: 'Languages', value: 'Languages', count: TECH_STACK_ITEMS.filter((t) => t.category === 'Languages').length },
+    { label: 'Frontend', value: 'Frontend', count: TECH_STACK_ITEMS.filter((t) => t.category === 'Frontend').length },
+    { label: 'Backend', value: 'Backend', count: TECH_STACK_ITEMS.filter((t) => t.category === 'Backend').length },
+    { label: 'Databases', value: 'Databases', count: TECH_STACK_ITEMS.filter((t) => t.category === 'Databases').length },
+    { label: 'DevOps & Messaging', value: 'DevOps & Queues', count: TECH_STACK_ITEMS.filter((t) => t.category === 'DevOps & Queues').length },
+    { label: 'Testing & Tools', value: 'Testing & Tools', count: TECH_STACK_ITEMS.filter((t) => t.category === 'Testing & Tools').length },
   ];
 
   const getTechIcon = (iconName) => {
@@ -236,14 +261,14 @@ export default function TechStackSection() {
                 Technical Proficiencies
               </span>
               <span className="text-slate-600">·</span>
-              <span className="text-xs font-mono text-slate-400">27 Technologies</span>
+              <span className="text-xs font-mono text-slate-400">{TECH_STACK_ITEMS.length} Technologies</span>
             </div>
             
             <h2 className="text-2xl sm:text-3xl font-bold font-['Chakra_Petch'] text-white">
               Tech Stack & Engineering Arsenal
             </h2>
             <p className="text-xs sm:text-sm text-slate-400 max-w-3xl leading-relaxed">
-              Full-spectrum technical proficiencies from C systems programming to Python and Node.js backends, modern reactive user interfaces, distributed databases, message queues, and automated DevOps workflows.
+              Full-spectrum technical proficiencies from C systems programming to Python, TypeScript, NestJS and Next.js full-stack architectures, distributed databases, message queues, and automated DevOps CI/CD workflows.
             </p>
           </div>
 
@@ -251,19 +276,19 @@ export default function TechStackSection() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-5 mt-5 border-t border-slate-800/80 text-xs font-mono">
             <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
               <span className="text-slate-400 block text-[10px] uppercase">Core Languages</span>
-              <strong className="text-sm text-white">C, Python, JS, HTML5, CSS3</strong>
+              <strong className="text-sm text-white">C, Python, TypeScript, JS...</strong>
             </div>
             <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
               <span className="text-slate-400 block text-[10px] uppercase">Databases (6)</span>
               <strong className="text-sm text-white">Postgres, Redis, Mongo, MySQL...</strong>
             </div>
             <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
-              <span className="text-slate-400 block text-[10px] uppercase">Backends & APIs</span>
-              <strong className="text-sm text-white">Django, Node.js, Express, Flask</strong>
+              <span className="text-slate-400 block text-[10px] uppercase">Backends & Full-Stack</span>
+              <strong className="text-sm text-white">NestJS, NextJS, Node, Django...</strong>
             </div>
             <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
               <span className="text-slate-400 block text-[10px] uppercase">DevOps & Infra</span>
-              <strong className="text-sm text-white">Docker, Actions, RabbitMQ, Nginx</strong>
+              <strong className="text-sm text-white">CI/CD, Docker, Actions, Nginx...</strong>
             </div>
           </div>
         </div>
