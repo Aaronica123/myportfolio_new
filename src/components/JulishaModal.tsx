@@ -53,8 +53,8 @@ export const JulishaModal: React.FC<JulishaModalProps> = ({ isOpen, onClose }) =
                 <h3 className="font-['Chakra_Petch'] font-bold text-base text-white">
                   Julisha Healthcare AI Platform
                 </h3>
-                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-amber-300 border border-slate-700">
-                  GDG Pwani Winner 2026
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-sky-300 border border-slate-700">
+                  GDG Pwani Hackathon 2026 Participant
                 </span>
               </div>
               <p className="text-xs font-mono text-slate-400">

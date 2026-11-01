@@ -65,8 +65,8 @@ Type 'help' to inspect command matrix or 'whoami' for operator profile.`,
         output = `AVAILABLE SYSTEM COMMANDS:
   whoami       - Display Aaron Mutua's developer dossier & callsign
   certs        - Display accredited industry certifications & credentials
-  geohousing   - Explore GeoMakazi campus & national housing infrastructure AI
-  c-lang       - Inspect low-level C secure systems training details
+  housing      - Explore MMUSTHOMES campus house hunting & navigation platform
+  c-lang       - Inspect low-level C secure systems programming skills
   azure        - Review Microsoft Azure Certification speedrun & DevOps
   veneva       - View Veneva 2.0 Overhaul architecture & launch lab
   julisha      - GDG Pwani Hackathon 2026 Julisha Healthcare AI
@@ -105,7 +105,7 @@ PHILOSOPHY: "${DEVELOPER_PROFILE.philosophy}"`;
 - Paradigm: Bare-metal memory management & deterministic execution
 - Key Practices: Custom fixed-size chunk allocators, 0 mallocs in hot loops
 - Security Armor: Buffer bounds checks, POSIX mutex thread safety, ASLR compliance
-- Project: Veneva 2.0 Aegis Micro-Daemon (<1.2ms latency, 0 byte memory leak)`;
+- Focus: High-performance systems programming, POSIX socket daemons, zero memory leaks`;
         type = 'success';
         break;
 
@@ -129,24 +129,23 @@ PHILOSOPHY: "${DEVELOPER_PROFILE.philosophy}"`;
 
       case 'julisha':
         output = `[JULISHA HEALTHCARE AI SYSTEM]
-- Recognition: GDG Pwani Hackathon 2026 Gold Medal
+- Recognition: GDG Pwani Hackathon 2026 Participant
 - Mission: AI-powered multilingual healthcare management for Primary Health Centers
 - Features: Swahili/English NLP, Pearson stockout-to-satisfaction engine, Biometric verification`;
         type = 'success';
         break;
 
+      case 'mmusthomes':
       case 'geohousing':
       case 'makazi':
       case 'housing':
       case 'campus':
-        output = `[GEOMAKAZI: GEOGRAPHICAL AI HOUSING PLATFORM (ONGOING INFRASTRUCTURE PROJECT)]
-- Context: Kenya's 1.36 Trillion KES housing sector (8.4% GDP), 50B budget allocation
-- Mission: Eradicate exhausting manual door-to-door room hunts for campus comrades & urban finders
-- Architecture: React frontend, Google Maps satellite GIS, Express.js microservice (App.js, Index.js, Supabase.js)
-- Database: Supabase PostgreSQL (Users, Houses, Profiles) with Google OAuth & Row-Level Security
-- Storage & Caching: MinIO S3-compatible image buckets + in-memory Redis caching (<50ms response)
-- AI Inspection: Automated house health & regulatory condition assessment (ventilation, mold, safety)
-- Gateway & Host: Nginx reverse proxy + Railway container orchestration`;
+        output = `[MMUSTHOMES: CAMPUS HOUSE HUNTING & NAVIGATION PLATFORM (COMPLETE)]
+- Mission: Eradicate tiresome manual door-to-door room searches and late knowledge of vacant houses
+- Target: Masinde Muliro University students & comrades seeking verified bedsitters and rentals
+- Key Features: Real-time vacancy lookup, interactive route map navigation to property doorsteps
+- Tech: NextJS, TypeScript, Mapping & GIS, Supabase PostgreSQL, Tailwind CSS
+- Transparency: Direct landlord/caretaker contacts with zero intermediary middleman fees`;
         type = 'success';
         break;
 

@@ -31,17 +31,17 @@ import { soundManager } from '../utils/audio';
 // Detailed project implementation and terminal lore for each of the 27 technologies
 const TECH_EXTENDED_INFO = {
   'tech-c': {
-    usageProject: 'Aegis Micro-Daemon & Systems Projects',
+    usageProject: 'Veneva 2.0 & Systems Architecture',
     role: 'Low-level systems programming, deterministic manual heap management, POSIX thread pools, and memory safety audits.',
-    codeSnippet: 'gcc -O3 -Wall -Wextra -pthread -pedantic -o aegis_daemon daemon.c',
+    codeSnippet: 'gcc -O3 -Wall -Wextra -pthread -pedantic -o systems_core core.c',
   },
   'tech-python': {
-    usageProject: 'Julisha Healthcare AI Platform (GDG Pwani Winner)',
+    usageProject: 'Julisha Healthcare AI Platform (GDG Pwani Participant)',
     role: 'Asynchronous REST APIs, Pearson stockout-to-satisfaction correlation algorithms, and multi-modal clinical prompt pipelines.',
     codeSnippet: 'python3 -m uvicorn main:app --workers 4 --host 0.0.0.0 --port 8000',
   },
   'tech-react-router': {
-    usageProject: 'GeoMakazi Housing & Portfolio Single Page Architecture',
+    usageProject: 'MMUSTHOMES & Portfolio Single Page Architecture',
     role: 'Client-side declarative routing, nested viewports, search parameter sync, and seamless navigation.',
     codeSnippet: 'createBrowserRouter([ { path: "/", element: <Layout />, children: [...] } ])',
   },
@@ -51,7 +51,7 @@ const TECH_EXTENDED_INFO = {
     codeSnippet: 'amqp.connect("amqp://localhost", (err, conn) => conn.createChannel(...))',
   },
   'tech-react': {
-    usageProject: 'Julisha AI, GeoMakazi Campus Housing & Portfolio',
+    usageProject: 'Julisha AI, MMUSTHOMES Campus Housing & Portfolio',
     role: 'Component state machines, hooks, reactive UI flows, and high-performance interactive interfaces.',
     codeSnippet: 'const [state, setState] = useState(initialState);',
   },
@@ -96,12 +96,12 @@ const TECH_EXTENDED_INFO = {
     codeSnippet: '@supports (display: grid) { .layout-grid { display: grid; grid-template-columns: repeat(12, 1fr); } }',
   },
   'tech-nginx': {
-    usageProject: 'GeoMakazi & Cloud Gateway Deployments',
+    usageProject: 'MMUSTHOMES & Cloud Gateway Deployments',
     role: 'High-performance HTTP reverse proxy, TLS/SSL certificate termination, upstream load balancing, and static caching.',
     codeSnippet: 'upstream api_cluster { server 127.0.0.1:8001; server 127.0.0.1:8002; }',
   },
   'tech-supabase': {
-    usageProject: 'GeoMakazi Campus & Student Housing Infrastructure',
+    usageProject: 'MMUSTHOMES Campus & Student Housing Infrastructure',
     role: 'PostgreSQL database hosting, Row-Level Security (RLS) policies, OAuth identity, and realtime change webhooks.',
     codeSnippet: 'create policy "Allow comrades to view verified houses" on houses for select using (status = "active");',
   },

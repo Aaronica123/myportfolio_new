@@ -22,7 +22,7 @@ export const AICopilotModal: React.FC<AICopilotModalProps> = ({
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: "Hello! I am Aaron's AI Portfolio Assistant. Ask me anything about Aaron Mutua's technical proficiencies, his education at Masinde Muliro University, his KMFRI attache experience, or his hackathon-winning Julisha AI platform.",
+      content: "Hello! I am Aaron's AI Portfolio Assistant. Ask me anything about Aaron Mutua's technical proficiencies, his education at Masinde Muliro University, his KMFRI attache experience, or his projects like MMUSTHOMES, the Butchery Management System, and the Julisha AI platform.",
       time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     },
   ]);
@@ -84,7 +84,7 @@ export const AICopilotModal: React.FC<AICopilotModalProps> = ({
       // Deterministic portfolio fallback
       let fallbackText = `Aaron Mutua is a Junior Developer and DevOps enthusiast pursuing a Bachelor of Science in Information Technology at Masinde Muliro University of Science and Technology (MMUST, Class of 2027).
 
-He has hands-on experience as an IT Attache at the Kenya Marine Fisheries Research Institute (KMFRI), where he engineered the company ticketing system and proposed system flow optimizations. He is also the 1st place champion of the GDG Pwani Hackathon 2026 for building the Julisha Healthcare AI platform.
+He has hands-on experience as an IT Attache at the Kenya Marine Fisheries Research Institute (KMFRI), where he engineered the company ticketing system, built tests, and automated CI/CD deployment pipelines. He also participated in the GDG Pwani Hackathon 2026, building the Julisha Healthcare AI platform, and has engineered platforms like MMUSTHOMES and the client Butchery Management System.
 
 You can reach Aaron directly via email at k.aaronmutua@gmail.com or by phone at 0700069944!`;
 

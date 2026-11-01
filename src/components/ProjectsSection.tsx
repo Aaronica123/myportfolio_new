@@ -72,7 +72,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
               className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-['Chakra_Petch'] font-semibold text-xs flex items-center gap-1.5 transition-colors cursor-pointer"
             >
               <Compass size={14} className="text-emerald-400" />
-              <span>GeoMakazi Housing</span>
+              <span>MMUSTHOMES Housing</span>
             </button>
 
             <button
@@ -158,7 +158,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
                 </div>
 
                 <div className="flex items-center justify-between pt-1">
-                  {proj.id === 'geospatial-housing' ? (
+                  {proj.id === 'mmusthomes' ? (
                     <button
                       onClick={() => {
                         soundManager.playAchievement();
@@ -167,7 +167,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
                       className="inline-flex items-center gap-1.5 text-xs font-['Chakra_Petch'] font-semibold text-emerald-400 hover:text-emerald-300 transition-colors cursor-pointer"
                     >
                       <Compass size={14} />
-                      <span>GeoMakazi Blueprint & Demo</span>
+                      <span>MMUSTHOMES Navigator & Demo</span>
                       <ArrowRight size={13} />
                     </button>
                   ) : proj.id === 'veneva-2' ? (

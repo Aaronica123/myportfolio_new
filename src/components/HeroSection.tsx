@@ -68,7 +68,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
             {/* Professional Summary from CV */}
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl font-normal">
-              I am an enthusiastic, adaptable developer ready to learn, collaborate with experts, and build dependable solutions for real-world problems. Currently pursuing my Bachelor of Science in Information Technology at <strong className="text-white">Masinde Muliro University</strong> (Class of 2027), undertaking training aiming for <strong className="text-white">AWS & DevOps</strong> certifications, and creator of the award-winning <strong className="text-white">Julisha AI</strong> healthcare management platform.
+              I am an enthusiastic, adaptable developer ready to learn, collaborate with experts, and build dependable solutions for real-world problems. Currently pursuing my Bachelor of Science in Information Technology at <strong className="text-white">Masinde Muliro University</strong> (Class of 2027), undertaking training aiming for <strong className="text-white">AWS & DevOps</strong> certifications, and participated in the GDG Pwani Hackathon building the <strong className="text-white">Julisha AI</strong> healthcare management platform.
             </p>
 
             {/* Action Buttons */}
@@ -201,15 +201,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   </p>
                 </div>
 
-                {/* Major Achievement */}
+                {/* Major Achievement / Hackathon */}
                 <div className="p-3 rounded-lg bg-slate-900/90 border border-slate-800/80 flex items-start gap-2.5">
-                  <Award size={18} className="text-amber-400 shrink-0 mt-0.5" />
+                  <Award size={18} className="text-sky-400 shrink-0 mt-0.5" />
                   <div className="space-y-0.5">
                     <strong className="text-white text-xs block font-semibold">
-                      Winner · GDG Pwani Hackathon 2026
+                      Participant · GDG Pwani Hackathon 2026
                     </strong>
                     <p className="text-slate-400 text-[11px]">
-                      Created Julisha: Multilingual AI healthcare management platform.
+                      Participated in developing Julisha: Multilingual AI healthcare management platform.
                     </p>
                   </div>
                 </div>

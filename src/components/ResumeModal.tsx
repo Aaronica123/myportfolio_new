@@ -184,20 +184,10 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
               <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800 space-y-1">
                 <div className="flex justify-between items-center">
                   <strong className="text-white font-semibold">Julisha System: Multilingual AI Healthcare Platform</strong>
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-amber-300 border border-slate-700">GDG Pwani Winner 2026</span>
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-sky-300 border border-slate-700">GDG Pwani 2026 Participant</span>
                 </div>
                 <p className="text-slate-300 text-xs">
-                  A multilingual AI-powered healthcare management platform designed for Primary Healthcare Centers and Community Health Centers, created during the Google Developers Group (GDG) Pwani Hackathon 2026.
-                </p>
-              </div>
-
-              <div className="p-3.5 rounded-lg bg-slate-900 border border-slate-800 space-y-1">
-                <div className="flex justify-between items-center">
-                  <strong className="text-white font-semibold">GeoMakazi: Campus Housing & Geospatial System</strong>
-                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-emerald-300 border border-slate-700">Production Ready</span>
-                </div>
-                <p className="text-slate-300 text-xs">
-                  Student housing platform connecting campus comrades to verified bedsitters and apartments without middleman fees. Powered by React, Supabase, Redis, and satellite GIS.
+                  A multilingual AI-powered healthcare management platform designed for Primary Healthcare Centers and Community Health Centers, created while participating in the Google Developers Group (GDG) Pwani Hackathon 2026.
                 </p>
               </div>
             </div>

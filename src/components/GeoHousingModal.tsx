@@ -144,7 +144,7 @@ export const GeoHousingModal: React.FC<GeoHousingModalProps> = ({ isOpen, onClos
             <div>
               <div className="flex items-center gap-2">
                 <h3 className="font-['Chakra_Petch'] font-bold text-base text-white">
-                  GeoMakazi: Campus Housing & Geospatial AI
+                  MMUSTHOMES: Campus Housing & Geospatial Platform
                 </h3>
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-emerald-400 border border-slate-700 font-semibold">
                   Active Project
@@ -677,7 +677,7 @@ export const GeoHousingModal: React.FC<GeoHousingModalProps> = ({ isOpen, onClos
 
                 <div className="p-4 rounded-xl bg-slate-900/80 border border-slate-800 space-y-2">
                   <strong className="font-['Chakra_Petch'] font-bold text-sm text-emerald-300 block">
-                    THE GEOMAKAZI SOLUTION
+                    THE MMUSTHOMES SOLUTION
                   </strong>
                   <ul className="space-y-1.5 text-slate-300 text-xs list-disc list-inside">
                     <li>Single verified reference point connecting verified leasers and house hunters.</li>

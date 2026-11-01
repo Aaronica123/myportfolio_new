@@ -57,7 +57,7 @@ export const VenevaOverhaulLab: React.FC<VenevaOverhaulLabProps> = ({ isOpen, on
     security: 'A+ (Cryptographically Hardened)',
     status: 'OPTIMAL: Zero-Contention Event Loop',
     logs: [
-      '[SYSTEM] Initialized Veneva 2.0 Aegis C-Daemon.',
+      '[SYSTEM] Initialized Veneva 2.0 Native C-Daemon.',
       '[KERNEL] Bound epoll listener to socket descriptor. 8 worker threads active.',
       '[MEMORY] Allocated deterministic 4096-byte chunk pool. 0 mallocs in hot loop.',
       '[AUTH] Verified ed25519 token signature. Ephemeral key rotation armed.',
